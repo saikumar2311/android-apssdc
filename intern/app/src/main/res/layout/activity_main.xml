@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6A6A6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/head"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/Shead"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:background="#F1E1E1">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Thead"
+            android:textSize="27sp"
+            android:textStyle="italic" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#fff"
+            >
+
+            <TextView
+                android:id="@+id/scrolltext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="@string/text"
+                android:textSize="24sp">
+
+            </TextView>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
