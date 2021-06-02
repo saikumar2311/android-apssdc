@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string-array name="branch">
+        <item>- - - select your branch - - -</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>IT</item>
+        <item>CIVIL</item>
+        <item>MECH</item>
+    </string-array>
+</resources>
